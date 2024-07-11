@@ -565,12 +565,17 @@ body {
 
     .content .application_tittle {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         margin-bottom: 83px;
 
         p {
             display: flex;
             margin: auto 0;
+        }
+
+        .text1 {
+            position: absolute;
+            right: 0;
         }
 
     }
@@ -600,11 +605,11 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-    } 
+    }
 
     .content .application_icon {
         display: flex;
-        
+
         margin: 0 0%;
         gap: 30px;
     }
@@ -705,6 +710,7 @@ body {
             font-size: 120px;
             float: right;
         }
+
         .dev1 {
             font-size: 120px;
             color: #908B8B;
@@ -713,6 +719,7 @@ body {
 
         .application_tittle1 {
             width: 30%;
+            position: absolute;
         }
 
         .application_icon h6 {
@@ -722,7 +729,14 @@ body {
         .application_icon p {
             width: 50%;
         }
+
+        .software_tittle {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
     }
+
     .icon_cheo {
         scale: 1.4;
         opacity: 0.7;
@@ -735,12 +749,14 @@ body {
     .icon111 {
         translate: -51% 0;
     }
+
     .icon-tron-nho_footer {
         translate: 0 200px;
         position: absolute;
     }
+
     .vuong_footer {
-        translate:0 1250px;
+        translate: 0 1250px;
         position: absolute;
     }
 
@@ -750,15 +766,18 @@ body {
         left: -15%;
         opacity: 0.5;
     }
+
     .icon-tron-nho_footer1 {
         position: absolute;
         right: 0;
         bottom: 400px;
     }
+
     .nhom_vuong1 {
         width: 20%;
         translate: 400% 120%;
     }
+
     .content .meet {
         margin-top: 200px;
         display: flex;
@@ -766,13 +785,14 @@ body {
         flex-direction: column;
         color: black;
         translate: 67px 0;
+
         h1 {
             font-weight: bold;
         }
 
         .meet_img {
             display: flex;
-           
+
         }
 
         div {
@@ -947,12 +967,14 @@ body {
 
 
     }
+
     .slide_goals {
         translate: 0 50px;
         display: flex;
         margin: 0 auto;
         margin-bottom: 100px;
     }
+
     .footer_img__content {
         position: relative;
         text-align: center;
@@ -1064,8 +1086,8 @@ body {
     .header .bg {
         position: absolute;
         background-image: url(../image/bg-top2.png);
-         background-repeat: no-repeat;
-       
+        background-repeat: no-repeat;
+
         width: 100%;
         height: 400%;
         /* margin-bottom: 1000px; */
@@ -1101,7 +1123,7 @@ body {
         position: absolute;
         scale: 0.4;
         top: 350px;
-        
+
     }
 
     .header_maia {
@@ -1234,7 +1256,7 @@ body {
     .header_content {
         scale: 0.4;
         color: white;
-        top:80px;
+        top: 80px;
         right: 5%;
         position: absolute;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1466,7 +1488,7 @@ body {
     }
 
     .content .who .who_img {
-        
+
         position: absolute;
         width: 340px;
         text-align: center;
@@ -1482,7 +1504,7 @@ body {
     .icon {
         margin-top: 550px;
     }
-   
+
     .content .icon .icon-cheo {
         position: relative;
     }
@@ -1539,7 +1561,7 @@ body {
 
     .content .what .icon_what1 div {
         width: 150px;
-    
+
     }
 
     .content .what .icon_what1 img {
@@ -1607,7 +1629,7 @@ body {
         margin: 0;
         color: black;
         margin-top: 200px;
-        
+
     }
 
     .content .services .content_services {
@@ -1634,6 +1656,7 @@ body {
     .content .services .content_services p {
         text-align: center;
     }
+
     .content .services .icon_services {
         display: flex;
         margin-top: 100px;
@@ -1666,13 +1689,13 @@ body {
         margin-bottom: 0;
 
     }
-    
+
     .content .services .services_building {
         width: 100%;
     }
 
     .content .services .services_building img {
-        
+
         position: absolute;
         right: 0;
         width: 373px;
@@ -1694,9 +1717,8 @@ body {
         display: flex;
         margin-bottom: 83px;
         flex-direction: column;
-        a
 
-        p {
+        a p {
             display: flex;
             margin: auto 0;
         }
@@ -1707,13 +1729,13 @@ body {
         color: #0061B0;
         font-weight: bold;
         font-size: 60px;
-        
+
     }
 
     .content .application_tittle .dev {
         font-size: 60px;
         color: #908B8B;
-    
+
     }
 
     .content .application_icon {
@@ -1744,6 +1766,8 @@ body {
         padding-top: 80px;
         margin: auto 0;
         margin: 20px;
+        background-color: white;
+        z-index: 2;
     }
 
     .content .application_icon .application_icon2 {
@@ -1830,6 +1854,7 @@ body {
         color: black;
         margin: 0 5%;
         margin-top: -400px;
+
         .application_tittle {
             margin-bottom: 0;
         }
@@ -1850,10 +1875,10 @@ body {
 
         .application_tittle1 {
             width: 100%;
-            
+
         }
 
-        .application_tittle1 p{
+        .application_tittle1 p {
             padding-left: 30%;
             float: right;
         }
@@ -1957,10 +1982,12 @@ body {
 
     /* footer */
     .footer {
-        margin-top: 120px;
-        background-image: url(../image/bg-footer.png);
+        background-image: url(../image/bg-footer2.png);
         background-repeat: no-repeat;
         background-size: cover;
+        width: 100%;
+        height: 290%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .content_hotline {
@@ -2038,22 +2065,19 @@ body {
 
     .footer_img__content .txt_1 {
         font-size: 40px;
-        line-height: 20px;
+        line-height: 40px;
     }
 
     .footer_img__content .txt_2 {
         font-size: 80px;
         font-weight: bold;
-        line-height: 50px;
+        line-height: 70px;
     }
 
     .footer_img__content button {
         margin-top: 30px;
-        padding: 5px 50px 20px 50px;
-        background-color: #0073e6;
-        color: white;
+        background: none;
         border: none;
-
     }
 
     .footer_content {
@@ -2131,5 +2155,28 @@ body {
         margin-top: 40px;
         padding-bottom: 50px;
 
+    }
+    .vuong_footer {
+        bottom: 300px;
+        position: absolute;
+    }
+    .nhom_vuong_footer {
+        position: absolute;
+        opacity: 0.5;
+        bottom: 65px;
+        left: 30px;
+    }
+    .icon-tron-nho_footer1 {
+        position: absolute;
+        bottom: 300px;
+        right: -60px;
+    }
+    .icon-tron-nho_footer {
+        position: absolute;
+        bottom: 1800px;
+    }
+
+    .content_hotline__intro img {
+        display: none;
     }
 }
