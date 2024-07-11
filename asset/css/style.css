@@ -1268,7 +1268,7 @@ body {
     .line2 {
         font-size: 120px;
         font-weight: bold;
-        margin-right: -300px;
+        margin-right: -350px;
     }
 
     .follow {
@@ -1539,8 +1539,8 @@ body {
     }
 
     .content .what .icon_what1 div {
-        width: 160px;
-        height: auto;
+        width: 150px;
+    
     }
 
     .content .what .icon_what1 img {
@@ -1586,7 +1586,6 @@ body {
 
     .content .icon_what .text_what div {
         width: 100%;
-
     }
 
     .content .icon_what .text_what h6 {
@@ -1599,7 +1598,7 @@ body {
     .content .icon_what .text_what p {
         display: flex;
         margin: 0 auto;
-        width: 250px;
+        width: 200px;
         font-size: 15px;
         padding-left: 0;
         padding-right: 0;
@@ -1668,11 +1667,7 @@ body {
         margin-bottom: 0;
 
     }
-    body {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+    
     .content .services .services_building {
         width: 100%;
     }
