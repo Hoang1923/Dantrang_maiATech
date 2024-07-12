@@ -1088,8 +1088,21 @@ body {
 
         width: 100%;
         height: 400%;
-        /* margin-bottom: 1000px; */
+       
     }
+
+    @media only screen and (width:430px){
+        .header .bg {
+            position: absolute;
+            background-image: url(../image/bg-top3.png);
+            background-repeat: no-repeat;
+    
+            width: 100%;
+            height: 400%;
+           
+        }
+    }
+
 
     .header .icon-vuong {
         left: 5%;
@@ -1475,9 +1488,7 @@ body {
     .content .who #who_tittle2 {
         font-size: 70px;
         color: #908B8B;
-        margin-left: 25%;
-        width: 100%;
-        padding-right: -400px;
+        padding-left: 50px;
     }
 
     .content .who button {
@@ -1726,13 +1737,15 @@ body {
     .content .application_tittle .app {
         color: #0061B0;
         font-weight: bold;
-        font-size: 60px;
+        font-size: 50px;
+        width: fit-content;
 
     }
 
     .content .application_tittle .dev {
-        font-size: 60px;
+        font-size: 50px;
         color: #908B8B;
+        width: fit-content;
 
     }
 
@@ -1984,7 +1997,7 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 290%;
+        height: fit-content;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
@@ -2167,7 +2180,7 @@ body {
     .icon-tron-nho_footer1 {
         position: absolute;
         bottom: 300px;
-        right: -60px;
+        right: 0;
     }
     .icon-tron-nho_footer {
         position: absolute;
