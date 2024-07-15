@@ -756,21 +756,22 @@ body {
     }
 
     .vuong_footer {
-        translate: 0 1250px;
         position: absolute;
+        bottom: 300px;
     }
 
     .nhom_vuong_footer {
         position: absolute;
         bottom: 100px;
-        left: -15%;
+        left: 15%;
+        bottom: 0;
         opacity: 0.5;
     }
 
     .icon-tron-nho_footer1 {
         position: absolute;
         right: 0;
-        bottom: 400px;
+        bottom: 300px;
     }
     .content .meet {
         margin-top: 200px;
@@ -1108,7 +1109,30 @@ body {
            
         }
     }
-
+    
+    @media only screen and (min-width:415px) and (max-width:429px){
+        .header .bg {
+            position: absolute;
+            background-image: url(../image/bg-top1.png);
+            background-repeat: no-repeat;
+    
+            width: 100%;
+            height: 400%;
+           
+        }
+    }
+    @media only screen and (min-width:431px) and (max-width:766px){
+        .header .bg {
+            position: absolute;
+            background-image: url(../image/bg-top1.png);
+            background-repeat: no-repeat;
+    
+            width: 100%;
+            height: 400%;
+           
+        }
+    }
+    
 
     .header .icon-vuong {
         left: 5%;
@@ -1415,6 +1439,7 @@ body {
 
     .content .content_mess {
         background-color: white;
+        width: 100%;
         padding: 100px;
         border-radius: 15px;
         box-shadow: 1px 1px 20px 3px gray;
