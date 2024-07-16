@@ -903,8 +903,11 @@ body {
             padding: 88px 55px;
             background-color: #F7F7F7;
         }
+        
 
-    }
+    }.chuyen_slide {
+            padding: 5%;
+        }
 
 
 
@@ -2258,6 +2261,10 @@ body {
         width: 20%;
         float: right;
         margin-right: 100px;
+    }
+    .chuyen_slide {
+        display: flex; 
+        translate: 0 -250px;
     }
 
 }
