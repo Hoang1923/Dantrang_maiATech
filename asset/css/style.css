@@ -628,8 +628,8 @@ body {
     }
 
     .content .application_icon .application_icon1 {
-        width: 300px;
-        height: 300px;
+        width: 360px;
+        height: 360px;
         border: 2px solid gray;
         border-radius: 50%;
         margin-top: 115px;
@@ -641,8 +641,8 @@ body {
     }
 
     .content .application_icon .application_icon2 {
-        width: 450px;
-        height: 450px;
+        width: 475px;
+        height: 475px;
         border: 2px solid gray;
         border-radius: 50%;
         display: flex;
@@ -1069,10 +1069,13 @@ body {
     }
 
     .footer_img__content button {
-        margin-top: 30px;
+        display: flex;
+        margin-top: 100px;
         background: none;
         border: none;
-
+        width: 100%;
+        height: auto;
+        justify-content: center;
     }
 
     .footer_content {
@@ -2242,9 +2245,14 @@ body {
     }
 
     .footer_img__content button {
-        margin-top: 30px;
+        display: flex;
+        margin-top: 80px;
         background: none;
         border: none;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        margin-bottom: 150px;
     }
 
     .footer_content {
@@ -2355,11 +2363,6 @@ body {
         width: 20%;
         float: right;
         margin-right: 100px;
-    }
-
-    .chuyen_slide {
-        display: flex;
-        translate: 0 -250px;
     }
 
 }
@@ -3386,9 +3389,14 @@ body {
     }
 
     .footer_img__content button {
-        margin-top: 30px;
+        display: flex;
+        margin-top: 80px;
         background: none;
         border: none;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        margin-bottom: 100px;
     }
 
     .footer_content {
