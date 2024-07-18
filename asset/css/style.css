@@ -927,6 +927,7 @@ body {
         }
 
 
+
     }
 
     .box1 {
@@ -992,7 +993,28 @@ body {
     }
 
     .meet_goals {
-        translate: 0 -180px;
+        
+        .navigation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .nav-btn {
+            width: 25px;
+            height: 5px;
+            margin: 0 5px;
+            background-color: #ccc;
+            border: none;
+
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-btn.active {
+            background-color: #007bff;
+        }
     }
 
 
