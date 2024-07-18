@@ -10,6 +10,8 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="website icon" type="jpg" href="./asset/image/icon_tittle.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
     <title>Trang chủ</title>
 </head>
 
@@ -20,27 +22,21 @@
         <div class="bg">
 
         </div>
-        <div class="icon-vuong">
-            <img src="./asset/image/vuong_to.png" />
-        </div>
-        <div class="icon-vuong-nho">
-            <img src="./asset/image/vuong_nho.png" />
-        </div>
-        <div class="icon-gachcheo">
-            <img src="./asset/image/gach-cheo.svg" />
-        </div>
-        <div class="icon-gachcheo1">
-            <img src="./asset/image/gach-cheo.svg" />
-        </div>
-        <div class="icon-tron-nho">
-            <img src="./asset/image/tron-vua.svg" />
-        </div>
-        <div class="icon-tron-to">
-            <img src="./asset/image/tron-to.svg" />
-        </div>
-        <div class="icon-tron-to1">
-            <img src="./asset/image/tron-to.svg" />
-        </div>
+        
+            <img class="icon-vuong" src="./asset/image/vuong_to.png" />
+       
+            <img class="icon-vuong-nho" src="./asset/image/vuong_nho.png" />
+        
+            <img class="icon-gachcheo" src="./asset/image/gach-cheo.svg" />
+        
+            <img class="icon-gachcheo1" src="./asset/image/gach-cheo.svg" />
+        
+            <img class="icon-tron-nho" src="./asset/image/tron-vua.svg" />
+        
+            <img class="icon-tron-to" src="./asset/image/tron-to.svg" />
+        
+            <img class="icon-tron-to1" src="./asset/image/tron-to.svg" />
+        
 
 
         <div class="header_maia">
@@ -292,17 +288,15 @@
                     <img src="./asset/image/nhom_vuong.png" alt="MaiATech" />
                 </div>
             </div>
-            <div class="application_t">
                 <div class="application_tittle">
                     <div>
                         <h1 class="app">APPLICATION</h1>
                         <h1 class="dev">DEVELOPMENT</h1>
                     </div>
-
-                    <p class="text1">Phát triển ứng dụng, chương trình đa nền tảng
-                    </p>
+                    
+                    <p class="application_tittle__text">Phát triển ứng dụng, chương trình đa nền tảng</p>
+                    
                 </div>
-            </div>
 
             <div class="icon icon_cheo">
                 <div class="icon-cheo">
@@ -409,36 +403,27 @@
             <h1>meet our team</h1>
             <p>Một số thành viên chủ chốt trong đội ngũ</p>
             <div class="meet_slide">
-                <div class="slider">
-                    <div class="container1">
-                        <div class="card">
-                            <img src="./asset/image/img_meet1.png" alt="Person 1">
-                            <div class="info">
-                                <h2>KS CNTT Lê Sơn Tùng</h2>
-                                <p>PGĐ PT Khách hàng dự án</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="./asset/image/img_meet2.png" alt="Person 2">
-                            <div class="info">
-                                <h2>ThS CNTT Lê Doãn Phước</h2>
-                                <p>Giám đốc</p>
-                            </div>
-                        </div>
-                        <div class="card card_1">
-                            <img src="./asset/image/img_meet3.png" alt="Person 3">
-                            <div class="info">
-                                <h2>ThS Vũ Hữu Dũng</h2>
-                                <p>Trưởng phòng Hệ thống thông tin</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="navigation">
-                    <button class="nav-btn active" onclick="showSlide(0)"></button>
-                    <button class="nav-btn" onclick="showSlide(1)"></button>
-                    <button class="nav-btn" onclick="showSlide(2)"></button>
-                </div>
+                <div class="wrapper">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <ul class="carousel">
+                      <li class="card">
+                        <div class="img"><img src="./asset/image/img_meet1.png" alt="img" draggable="false"></div>
+                        <h2>KS CNTT Lê Sơn Tùng</h2>
+                        <span>PGĐ PT Khách hàng dự án</span>
+                      </li>
+                      <li class="card">
+                        <div class="img"><img src="./asset/image/img_meet2.png" alt="img" draggable="false"></div>
+                        <h2>ThS CNTT Lê Doãn Phước</h2>
+                        <span>Giám đốc</span>
+                      </li>
+                      <li class="card">
+                        <div class="img"><img src="./asset/image/img_meet3.png" alt="img" draggable="false"></div>
+                        <h2>ThS Vũ Hữu Dũng</h2>
+                        <span>Trưởng phòng Hệ thống thông tin</span>
+                      </li>
+                    </ul>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+                  </div>
             </div>
 
         </div>
