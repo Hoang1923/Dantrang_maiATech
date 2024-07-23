@@ -406,6 +406,10 @@ body {
     .content .Contact {
         margin-top: -200px;
     }
+     
+    #contact_content {
+        margin-right: 12px;
+    }
 
     .content .content_mess {
         background-color: white;
@@ -2620,6 +2624,10 @@ body {
     .content .Contact {
         margin-bottom: 300px;
     }
+    #contact_content {
+        margin-right: 12px;
+    }
+
 
     .content .content_mess {
         background-color: white;
