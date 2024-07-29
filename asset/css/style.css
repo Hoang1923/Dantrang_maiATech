@@ -120,6 +120,10 @@ body {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
+    #left {
+        translate: -60px 0;
+    }
+
     .card .img img {
         width: 100%;
         height: auto;
