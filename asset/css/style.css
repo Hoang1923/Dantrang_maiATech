@@ -426,13 +426,13 @@ body {
     .vuong_contact {
         position: absolute;
         z-index: 0;
-        top: 970px;   
+        top: 1050px;   
     }
 
     .tron_contact{
         position: absolute;
         z-index: 0;
-        top: 970px;
+        top: 1100px;
         left: 430px;
        
         
@@ -451,7 +451,7 @@ body {
     .icon_vuong_cheo {
         position: absolute;
         z-index: 0;
-        top: 1500px;
+        top: 1600px;
         left: 370px;
         scale: 1.6;
         opacity: 0.5;  
@@ -460,7 +460,7 @@ body {
         opacity: 0.1;
         position: absolute;
         left: 0;
-        top: 1500px;
+        top: 1600px;
         width: 700px;
         height: 1px;
         border: 1px solid #0061B0;        
@@ -901,6 +901,7 @@ body {
             margin: 36px 20px 69px 20px;
             border: none;
             background-color: #0d88ec;
+            border-radius: 5px;
         }
 
         input::placeholder {
@@ -912,6 +913,8 @@ body {
             margin: 36px 20px 69px 20px;
             border: none;
             color: black;
+            border-radius: 5px;
+
         }
     }
 
@@ -1824,6 +1827,10 @@ body {
         font-size: 40px;
     }
 
+    .cheo_who{
+        display: none;
+    }
+
     .content .what p {
         text-align: center;
         padding: 0 10%;
@@ -1876,6 +1883,10 @@ body {
         translate: 25px 0;
 
 
+    }
+
+    .icon_sofware{
+        visibility: hidden;
     }
 
     .content .icon_what .line_what1 div {
@@ -2144,7 +2155,7 @@ body {
             margin: 36px 20px 69px 20px;
             border: none;
             background-color: #0d88ec;
-        border-radius: 5px;
+        border-radius: 8px;
 
         }
 
@@ -2157,6 +2168,7 @@ body {
             margin: 36px 20px 69px 20px;
             border: none;
             color: black;
+            border-radius: 5px;
         }
     }
 
@@ -2254,8 +2266,9 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: fit-content;
+        
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 2150px;
     }
 
     .content_hotline {
@@ -2298,8 +2311,7 @@ body {
     .footer_img {
         position: relative;
         width: 100%;
-
-        /* padding: 7%; */
+        top: -350px;
         background-image: url(../image/footer_img.png);
         color: white;
         display: flex;
@@ -2330,7 +2342,7 @@ body {
     }
 
     .footer_img__content .txt_1 {
-        font-size: 20px;
+        font-size: 30px;
         line-height: 30px;
         padding: 0 7%;
         padding-top: 7%;
@@ -2358,7 +2370,8 @@ body {
         display: flex;
         flex-direction: column;
         margin: 10% 20% 0 20%;
-
+        position: relative;
+        top: -350px;
     }
 
     .footer_content__logo {
@@ -2428,7 +2441,8 @@ body {
     .copyright {
         margin-top: 40px;
         padding-bottom: 50px;
-
+        position: relative;
+        top: -350px;
     }
 
     .vuong_footer {
@@ -3078,6 +3092,10 @@ body {
         flex-direction: column;
         align-items: center;
         margin-top: -50px;
+    }
+
+    .cheo_who {
+        display: none;
     }
 
     .icon_cheo {
