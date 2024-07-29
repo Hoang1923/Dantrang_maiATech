@@ -343,7 +343,7 @@ body {
     .vuong_intro {
         position: absolute;
         z-index: 0;
-        top: 1200px;   
+        top: 1200px;
     }
 
     .cheo_intro {
@@ -359,7 +359,7 @@ body {
     }
 
     .content_intro {
-        
+
         background-color: white;
         color: black;
         box-shadow: 1px 1px 20px 3px gray;
@@ -426,24 +426,25 @@ body {
     .vuong_contact {
         position: absolute;
         z-index: 0;
-        top: 1050px;   
+        top: 1050px;
     }
 
-    .tron_contact{
+    .tron_contact {
         position: absolute;
         z-index: 0;
         top: 1100px;
         left: 430px;
-       
-        
+
+
     }
 
-    .thank  {
+    .thank {
         position: absolute;
         top: -130px;
 
     }
-    .hot{
+
+    .hot {
         position: absolute;
         top: 90px;
     }
@@ -454,8 +455,9 @@ body {
         top: 1600px;
         left: 370px;
         scale: 1.6;
-        opacity: 0.5;  
+        opacity: 0.5;
     }
+
     .cheoo_contact {
         opacity: 0.1;
         position: absolute;
@@ -463,14 +465,14 @@ body {
         top: 1600px;
         width: 700px;
         height: 1px;
-        border: 1px solid #0061B0;        
+        border: 1px solid #0061B0;
         transform: rotate(40deg);
     }
 
     .content .Contact {
         margin-top: -200px;
     }
-     
+
     #contact_content {
         margin-right: 12px;
     }
@@ -566,13 +568,14 @@ body {
     .content .who .who_img {
         padding: 0;
     }
+
     .content .who .who_img img {
         float: right;
 
         height: auto;
     }
 
-    .img_who{
+    .img_who {
         position: absolute;
         right: 0;
         z-index: 2;
@@ -785,16 +788,18 @@ body {
     }
 
     .application_tittle__text {
-    padding-top: 80px;
-    padding-left: 200px;
-}
+        padding-top: 80px;
+        position: absolute;
+        right: 5%;
+    }
 
     .content .application_tittle .app {
         color: #0061B0;
         font-weight: bold;
         font-size: 120px;
     }
-    .vuong_appp{
+
+    .vuong_appp {
         float: left;
         translate: 0 -750px;
     }
@@ -1084,7 +1089,7 @@ body {
     }
 
     .meet_goals {
-        
+
         .navigation {
             display: flex;
             justify-content: center;
@@ -1440,6 +1445,7 @@ body {
 
     .a1111 {
         margin-top: 15px;
+
         li {
             list-style: none;
         }
@@ -1522,7 +1528,7 @@ body {
 
         .nav__input:checked~.nav__overlay {
             display: block;
-           
+
         }
 
         @media (max-width:767px) {
@@ -1813,6 +1819,7 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
     .content .what {
         margin-top: 750px;
         display: flex;
@@ -1827,7 +1834,7 @@ body {
         font-size: 40px;
     }
 
-    .cheo_who{
+    .cheo_who {
         display: none;
     }
 
@@ -1885,7 +1892,7 @@ body {
 
     }
 
-    .icon_sofware{
+    .icon_sofware {
         visibility: hidden;
     }
 
@@ -2023,14 +2030,15 @@ body {
         display: flex;
         margin-bottom: 83px;
         flex-direction: column;
-        h1{
+
+        h1 {
             padding-right: 10px;
         }
 
         p {
             display: flex;
             margin: auto 20px;
-            
+
         }
 
     }
@@ -2155,7 +2163,7 @@ body {
             margin: 36px 20px 69px 20px;
             border: none;
             background-color: #0d88ec;
-        border-radius: 8px;
+            border-radius: 8px;
 
         }
 
@@ -2266,7 +2274,7 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        
+
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         height: 2150px;
     }
@@ -2455,7 +2463,7 @@ body {
         opacity: 0.5;
         bottom: 0;
         left: 30px;
-        
+
     }
 
     .icon-tron-nho_footer1 {
@@ -2736,6 +2744,7 @@ body {
     .content .Contact {
         margin-bottom: 300px;
     }
+
     #contact_content {
         margin-right: 12px;
     }
