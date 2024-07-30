@@ -165,11 +165,21 @@ body {
 
     .header .bg {
         position: absolute;
-        background-image: url(../image/bg-top1.png);
+        background-image: url(../image/bg-top1\ -\ Copy.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 400%;
+        height: 420%;
+        margin-bottom: 1000px;
+    }
+
+    .bg1111{
+        position: absolute;
+        background-image: url(../image/bg-footer\ -\ Copy.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300%;
         margin-bottom: 1000px;
     }
 
@@ -182,18 +192,18 @@ body {
 
     .header .icon-vuong-nho {
         left: 15%;
-        top: 600px;
+        top: 500px;
         position: absolute;
     }
 
     .header .icon-gachcheo {
         left: 0;
-        top: 400px;
+        top: 300px;
         position: absolute;
     }
 
     .header .icon-gachcheo1 {
-        right: 20px;
+        right: 0;
         position: absolute;
     }
 
@@ -397,8 +407,12 @@ body {
     .content_intro__2 {
         padding: 0 10%;
     }
+    .content_intro__2  p {
+        font-size: 25px;
+    }
 
     .txt_bold {
+        font-size: 30px;
         font-weight: bold;
         font-family: 'Gilroy-Bold', sans-serif;
     }
@@ -543,25 +557,28 @@ body {
         color: black;
         z-index: 2;
         margin-bottom: 300px;
+        translate: 0 -100px ;
     }
 
     .content .who p {
         width: 70%;
+        font-size: 25px;
     }
 
     .content .who #who_tittle1 {
         font-weight: bold;
 
-        font-size: 70px;
+        font-size: 100px;
         font-family: 'Gilroy-Bold', sans-serif;
         color: #0061B0;
     }
 
     .content .who #who_tittle2 {
 
-        font-size: 70px;
+        font-size: 100px;
         color: #908B8B;
-        padding-left: 100px;
+        padding-left: 200px;
+        
     }
 
     .content .who button {
@@ -571,6 +588,7 @@ body {
 
     .content .who .who_img {
         padding: 0;
+        padding-top: 150px;
     }
 
     .content .who .who_img img {
@@ -587,9 +605,11 @@ body {
 
     .cheo_who {
         position: absolute;
-        top: 420px;
-        right: 150px;
+        top: 540px;
+        right: 200px;
+        opacity: 0.6;
         z-index: 0;
+        scale: 1.5;
     }
 
     .content .icon {
@@ -614,10 +634,12 @@ body {
         transform: translate(-50%, -50%);
     }
 
-
+.icon_what0{
+    translate: 0 -200px;
+}
 
     .content .what {
-        margin-top: 450px;
+        margin-top: 00px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -627,10 +649,17 @@ body {
     .content .what h1 {
         font-weight: bold;
         margin-bottom: 20px;
+        font-size: 60px;
     }
 
-    .content .what p {
+    .content .what .title0 {
         margin-bottom: 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .text_what p {
+        font-size: 20px;
     }
 
     .content .what .icon_what {
@@ -702,7 +731,7 @@ body {
     .content .icon_what .text_what p {
         display: flex;
         margin: 0 auto;
-        width: 150px;
+        width: 200px;
     }
 
     .line_cheo {
@@ -743,6 +772,8 @@ body {
 
     .content .services .content_services p {
         padding-right: 30%;
+        font-size: 25px;
+        line-height: 40px;
     }
 
     .content .services .icon_services {
@@ -760,16 +791,16 @@ body {
 
     .content .services .icon_services div h6 {
         text-align: center;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
-        height: 110px;
+        height: 210px;
         margin-top: 20px;
     }
 
     .content .services .icon_services div p {
         text-align: center;
         padding: 0;
-        line-height: 20px;
+        line-height: 35px;
         margin-bottom: 0;
 
     }
@@ -795,6 +826,12 @@ body {
         padding-top: 80px;
         position: absolute;
         right: 5%;
+    }
+
+    .application_tittle__text p {
+        float: right;
+        font-size: 30px;
+        width:70%;
     }
 
     .content .application_tittle .app {
@@ -837,8 +874,8 @@ body {
     }
 
     .content .application_icon .application_icon1 {
-        width: 360px;
-        height: 360px;
+        width: 450px;
+        height: 450px;
         border: 2px solid gray;
         border-radius: 50%;
         margin-top: 115px;
@@ -852,8 +889,8 @@ body {
     }
 
     .content .application_icon .application_icon2 {
-        width: 475px;
-        height: 475px;
+        width: 600px;
+        height: 600px;
         border: 2px solid gray;
         border-radius: 50%;
         display: flex;
@@ -866,28 +903,30 @@ body {
     }
 
     .content .application .application_icon1 img {
-        width: 60px;
-        height: 60px;
-
+        scale: 1.6;
+        translate: 0 20px;
     }
 
     .content .application_icon p {
         text-align: center;
         width: 60%;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .content .application_icon h6 {
         font-weight: bold;
+        padding-top: 60px;
+        font-size: 25px;
     }
 
     .content .application_icon2 p {
         width: 50%;
+        font-size: 15px;
     }
 
-    .content .application .application_icon1 img {
-        width: 60px;
-        height: 60px;
+    .content .application .application_icon2 img {
+        scale: 1.6;
+        
 
     }
 
@@ -902,11 +941,13 @@ body {
 
         h3 {
             margin-top: 40px;
+            font-size: 50px;
+            font-weight: bold;
 
         }
 
         input {
-            padding: 10px 10px;
+            padding: 15px 20px;
             margin: 36px 20px 69px 20px;
             border: none;
             background-color: #0d88ec;
@@ -918,7 +959,7 @@ body {
         }
 
         button {
-            padding: 10px 50px;
+            padding: 15px 60px;
             margin: 36px 20px 69px 20px;
             border: none;
             color: black;
@@ -927,6 +968,10 @@ body {
         }
     }
 
+    .icon_sofware {
+        translate: 450px 100px;
+        width: 20%;
+    }
     .content .sofware {
         color: black;
         margin: 0 5%;
@@ -947,6 +992,8 @@ body {
         .application_tittle1 {
             width: 30%;
             position: absolute;
+            padding-top: 60px;
+            font-size: 30px;
         }
 
         .application_icon h6 {
@@ -964,6 +1011,62 @@ body {
             margin: 0;
         }
     }
+    .content .application_icon .application_icon3 {
+        width: 450px;
+        height: 450px;
+        border: 2px solid gray;
+        border-radius: 50%;
+        margin-top: 115px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 57.5px;
+        margin: auto 0;
+        background-color: white;
+        z-index: 2;
+    }
+
+    .content .application_icon .application_icon4 {
+        width: 600px;
+        height: 600px;
+        border: 2px solid gray;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 145px;
+        box-shadow: 1px 1px 20px 3px #0073e6;
+        background-color: white;
+        z-index: 2;
+    }
+
+    .content .application_i .application_icon3 img {
+        scale: 1.6;
+        translate: 0 20px;
+    }
+
+    .content .application_icon p {
+        text-align: center;
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .content .application_icon h6 {
+        font-weight: bold;
+        padding-top: 60px;
+        font-size: 25px;
+    }
+
+    .content .application_icon4 p {
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .content .application_i .application_icon4 img {
+        scale: 1.6;
+        
+
+    }
 
     .icon_cheo {
         scale: 1.4;
@@ -971,7 +1074,7 @@ body {
         position: absolute;
         z-index: 1;
         left: 50%;
-        translate: 0 80px;
+        translate: 0 150px;
     }
 
     .icon111 {
@@ -979,9 +1082,9 @@ body {
     }
 
     .icon-tron-nho_footer {
-        translate: 0 200px;
+        translate: 0 80px;
         position: absolute;
-        visibility: hidden;
+        
     }
 
     .vuong_footer {
@@ -999,8 +1102,9 @@ body {
 
     .icon-tron-nho_footer1 {
         position: absolute;
-        right: 0;
+        right: 17px;
         bottom: 300px;
+        scale: 1.4;
     }
 
     .content .meet {
@@ -1010,9 +1114,17 @@ body {
         flex-direction: column;
         color: black;
         translate: 67px 0;
-
+        .meet_slide{
+            translate: 40px 0;
+            scale: 1.3;
+            padding-top: 100px;
+        }
         h1 {
             font-weight: bold;
+            font-size: 60px;
+        }
+        p {
+            font-size: 30px;
         }
 
         body {
@@ -1062,19 +1174,20 @@ body {
         .goals__tittle p {
             display: flex;
             margin: auto 0;
-            width: 20%;
+            width: 40%;
+            font-size: 30px;
         }
 
         .goals__tittle ._our {
             color: #0073e6;
             font-weight: bold;
-            font-size: 70px;
+            font-size: 100px;
 
         }
 
         .goals__tittle ._goals {
             color: gray;
-            font-size: 70px;
+            font-size: 100px;
             padding-left: 60px;
         }
 
@@ -1082,17 +1195,25 @@ body {
             font-weight: bold;
             width: 50%;
             margin-bottom: 30px;
+            font-size: 30px;
         }
 
         .goals_content {
             padding: 88px 55px;
             background-color: #F7F7F7;
         }
+        .goals_content p{
+            font-size: 20px;
+        }
 
 
     }
+    .icon_nhom_vuong1 {
+        width: 20%;
+    }
 
     .meet_goals {
+        padding-bottom: 200px;
 
         .navigation {
             display: flex;
@@ -1333,9 +1454,26 @@ body {
         height: 400%;
 
     }
+    .header .bg1111{
+        position: absolute;
+        background-image: url(../image/bg-top2.png);
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: 400%;
+    } 
 
     @media only screen and (width:430px) {
         .header .bg {
+            position: absolute;
+            background-image: url(../image/bg-top3.png);
+            background-repeat: no-repeat;
+
+            width: 100%;
+            height: 400%;
+
+        }
+        .header .bg1111 {
             position: absolute;
             background-image: url(../image/bg-top3.png);
             background-repeat: no-repeat;
@@ -1356,10 +1494,28 @@ body {
             height: 400%;
 
         }
+        .header .bg1111 {
+            position: absolute;
+            background-image: url(../image/bg-top1.png);
+            background-repeat: no-repeat;
+
+            width: 100%;
+            height: 400%;
+
+        }
     }
 
     @media only screen and (min-width:431px) and (max-width:766px) {
-        .header .bg {
+        .header .bg1111 {
+            position: absolute;
+            background-image: url(../image/bg-top1.png);
+            background-repeat: no-repeat;
+
+            width: 100%;
+            height: 400%;
+
+        }
+        .header .bg1111 {
             position: absolute;
             background-image: url(../image/bg-top1.png);
             background-repeat: no-repeat;
@@ -1628,6 +1784,24 @@ body {
 
 
     /* CSS trang giới thiệu */
+
+    .vuong_intro {
+        position: absolute;
+        z-index: 0;
+        top: 600px;
+    }
+
+    .cheo_intro {
+        /* border: 1px solid #E6F0F8; */
+        position: absolute;
+        border: 2px solid #E6F0F8;
+        width: 200px;
+        height: 2px;
+        top: 900px;
+        left: 0;
+        transform: rotate(45deg);
+        translate: -50px 0;
+    }
     .content_intro {
 
         background-color: white;
@@ -1635,6 +1809,7 @@ body {
         box-shadow: 1px 1px 20px 3px #0073e6;
         border-radius: 15px;
         margin: 0 7%;
+        margin-bottom: 400px;
     }
 
     .content_intro__1 {
@@ -1693,6 +1868,59 @@ body {
 
     /* CSS trang liên hệ */
 
+    .vuong_contact {
+        position: absolute;
+        z-index: 0;
+        top: 650px;
+    }
+
+    
+    .tron_contact {
+        position: absolute;
+        z-index: 0;
+        top: 800px;
+        left: 200px;
+
+
+    }
+ .icon_vuong_cheo {
+        position: absolute;
+        z-index: 0;
+        top: 1100px;
+        left: 100px;
+        
+        opacity: 0.5;
+    }
+
+    .cheoo_contact {
+        opacity: 0.1;
+        position: absolute;
+        left: 0;
+        top: 1200px;
+        left: 0;
+        width: 400px;
+        height: 1px;
+        border: 1px solid #0061B0;
+        transform: rotate(40deg);
+    }
+
+    .thank {
+        position: absolute;
+        left: -100px;
+        scale: 0.5;
+        translate:0 -600px;
+
+    }
+
+    .hot {
+        position: absolute;
+        translate:10px -430px;       
+    }
+
+    .mess_icon{
+        position: absolute;
+        translate:10px -350px;   
+    }
     .content .Contact {
         margin-bottom: 300px;
         scale: 0.8;
@@ -1701,7 +1929,7 @@ body {
     .content .content_mess {
         background-color: white;
         width: 100%;
-        padding: 40px;
+        padding: 60px 40px;
         border-radius: 15px;
         box-shadow: 1px 1px 20px 3px gray;
 
@@ -1898,6 +2126,7 @@ body {
 
     .icon_sofware {
         visibility: hidden;
+        width: 20%;
     }
 
     .content .icon_what .line_what1 div {
@@ -1938,6 +2167,7 @@ body {
         margin: 0;
         color: black;
         margin-top: 200px;
+        padding-bottom: 200px;
 
     }
 
@@ -2034,7 +2264,8 @@ body {
         display: flex;
         margin-bottom: 83px;
         flex-direction: column;
-
+        position: relative;
+        z-index: 2;
         h1 {
             padding-right: 10px;
         }
@@ -2045,6 +2276,13 @@ body {
 
         }
 
+    }
+    .icon_nhom_vuong{
+        padding-top: 140px;
+        position: absolute;
+        left: 10px;
+        scale: 0.8;
+        z-index: 1;
     }
 
     .content .application_tittle .app {
@@ -2061,6 +2299,10 @@ body {
         color: #908B8B;
         width: fit-content;
         padding-left: 20px;
+    }
+
+    .application_tittle__text p{
+font-size: 25px;
     }
 
     .content .application_icon {
@@ -2152,9 +2394,10 @@ body {
 
         h3 {
             margin-top: 50px;
-            font-size: 30px;
+            font-size: 33px;
             padding: 0 20%;
             text-align: center;
+            font-weight: bold;
         }
 
         .price_input {
@@ -2163,7 +2406,7 @@ body {
         }
 
         input {
-            padding: 10px 10px;
+            padding: 17px 10px;
             margin: 36px 20px 69px 20px;
             border: none;
             background-color: #0d88ec;
@@ -2173,10 +2416,11 @@ body {
 
         input::placeholder {
             color: white;
+            opacity: 0.5;
         }
 
         button {
-            padding: 10px 50px;
+            padding: 17px 50px;
             margin: 36px 20px 69px 20px;
             border: none;
             color: black;
@@ -2213,6 +2457,10 @@ body {
             translate: 0 30px;
         }
 
+        .application_tittle1 p {
+            font-size: 20px;
+        }
+
         .software_tittle {
             width: 100%;
             translate: 0 -200px;
@@ -2225,6 +2473,61 @@ body {
         .application_icon p {
             width: 50%;
         }
+    }
+    .content .application_icon .application_icon3 {
+        width: 300px;
+        height: 300px;
+        border: 2px solid gray;
+        border-radius: 50%;
+        margin-top: 115px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        margin: auto 0;
+        margin: 20px;
+        background-color: white;
+        z-index: 2;
+    }
+
+    .content .application_icon .application_icon4 {
+        width: 300px;
+        height: 300px;
+        border: 2px solid gray;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        box-shadow: 1px 1px 20px 3px #0073e6;
+        background-color: white;
+        z-index: 2;
+    }
+
+    .content .application .application_icon3 img {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .content .application_icon p {
+        text-align: center;
+        width: 60%;
+        font-size: 12px;
+    }
+
+    .content .application_icon h6 {
+        font-weight: bold;
+    }
+
+    .content .application_icon4 p {
+        width: 50%;
+    }
+
+    .content .application .application_icon4 img {
+        width: 60px;
+        height: 60px;
+
     }
 
     .icon_meet1 {
@@ -2240,6 +2543,7 @@ body {
 
         h1 {
             font-weight: bold;
+            font-size: 45px;
         }
     }
 
@@ -2356,7 +2660,7 @@ body {
     .footer_img__content .txt_1 {
         font-size: 30px;
         line-height: 30px;
-        padding: 0 7%;
+        padding: 0 12%;
         padding-top: 7%;
     }
 
@@ -2460,6 +2764,9 @@ body {
     .vuong_footer {
         bottom: 300px;
         position: absolute;
+        scale: 0.7;
+        left: -25px;
+        
     }
 
     .nhom_vuong_footer {
@@ -2478,11 +2785,16 @@ body {
 
     .icon-tron-nho_footer {
         position: absolute;
-        bottom: 1800px;
+        bottom: 1750px;
+        scale: 0.7;
+        left: -25px;
     }
 
     .content_hotline__intro img {
-        display: none;
+        position: absolute;
+        right: 30px;
+        top: 270px;
+
     }
 
     .nhom_vuong1 {
@@ -2528,7 +2840,7 @@ body {
     }
 
     .header .icon-gachcheo1 {
-        right: 20px;
+        right: 0;
         position: absolute;
     }
 
@@ -2688,6 +3000,7 @@ body {
         box-shadow: 1px 1px 20px 3px #0073e6;
         border-radius: 15px;
         margin: 0 7%;
+        
     }
 
     .content_intro__1 {
@@ -3121,8 +3434,8 @@ body {
     }
 
     .content .application_icon .application_icon1 {
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         border: 2px solid gray;
         border-radius: 50%;
         margin-top: 115px;
@@ -3150,10 +3463,9 @@ body {
         z-index: 2;
     }
 
-    .content .application .application_icon1 img {
-        width: 60px;
-        height: 60px;
-
+    .content .application_i .application_icon1 img {
+        scale: 1.6;
+        translate: 0 20px;
     }
 
     .content .application_icon p {
@@ -3164,15 +3476,17 @@ body {
 
     .content .application_icon h6 {
         font-weight: bold;
+        padding-top: 60px;
+        font-size: 25px;
     }
 
     .content .application_icon2 p {
         width: 50%;
+        font-size: 15px;
     }
 
-    .content .application .application_icon1 img {
-        width: 60px;
-        height: 60px;
+    .content .application_i .application_icon2 img {
+        scale: 1.6;
 
     }
 
