@@ -29,6 +29,9 @@ body {
 
 }
 
+.price {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .meet_slide {
     display: flex;
     padding: 0 35px;
@@ -2404,7 +2407,7 @@ font-size: 25px;
         h3 {
             margin-top: 50px;
             font-size: 33px;
-            padding: 0 20%;
+            padding: 0 19%;
             text-align: center;
             font-weight: bold;
         }
