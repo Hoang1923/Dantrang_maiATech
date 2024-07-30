@@ -956,6 +956,7 @@ body {
 
         input::placeholder {
             color: white;
+            opacity: 0.5;
         }
 
         button {
@@ -3520,6 +3521,7 @@ font-size: 25px;
 
         input::placeholder {
             color: white;
+            opacity: 0.5;
         }
 
         button {
