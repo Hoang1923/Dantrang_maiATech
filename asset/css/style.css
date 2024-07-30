@@ -1806,7 +1806,7 @@ body {
 
         background-color: white;
         color: black;
-        box-shadow: 1px 1px 20px 3px #0073e6;
+        box-shadow: 1px 1px 20px 3px gray;
         border-radius: 15px;
         margin: 0 7%;
         margin-bottom: 400px;
@@ -2997,7 +2997,7 @@ font-size: 25px;
 
         background-color: white;
         color: black;
-        box-shadow: 1px 1px 20px 3px #0073e6;
+        box-shadow: 1px 1px 20px 3px gray;
         border-radius: 15px;
         margin: 0 7%;
         
