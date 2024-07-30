@@ -147,12 +147,20 @@ body {
         .wrapper .carousel {
             grid-auto-columns: calc((100% / 2) - 9px);
         }
+        #left {
+            translate: 0;
+        }
+    
     }
 
     @media screen and (max-width: 600px) {
         .wrapper .carousel {
             grid-auto-columns: 100%;
         }
+        #left {
+            translate: 0;
+        }
+    
     }
 
 }
